@@ -18,6 +18,9 @@ __pycache__/
 local_settings.py
 db.sqlite3
 media
+### My own static file
+static-serve
+static-storage
 
 ### SublimeText ###
 # Cache files for Sublime Text
