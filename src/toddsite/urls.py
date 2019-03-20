@@ -19,9 +19,12 @@ from django.urls import path, include
 from django.conf import settings
 from django.conf.urls.static import static
 
+from resume import views as resume_views
+
 urlpatterns = [
-	path('polls/', include('polls.urls')),
     path('admin/', admin.site.urls),
+    path('polls/', include('polls.urls')),
+    path('resume/', resume_views.resume),
 ]
 
 if settings.DEBUG:

@@ -19,8 +19,10 @@ local_settings.py
 db.sqlite3
 media
 ### My own static file
-static-serve
-static-storage
+static-serve/
+src/static-storage/
+src/resume/static
+
 
 ### SublimeText ###
 # Cache files for Sublime Text

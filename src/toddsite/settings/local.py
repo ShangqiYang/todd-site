@@ -40,6 +40,7 @@ INSTALLED_APPS = [
 
     # Mine own apps
     'polls',
+    'resume',
 ]
 
 MIDDLEWARE = [
